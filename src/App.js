@@ -1,14 +1,11 @@
+import FixedMenu from "./components/FixedMenu/FixedMenu";
 
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          COMEÇAMOS
-        </p>
-      </header>
-    </div>
+    <>
+      <FixedMenu />
+    </>
   );
 }
 
