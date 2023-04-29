@@ -4,7 +4,6 @@ import { Container, ContainerPhotos } from "./style";
 import GalleryCard from "../GalleryCard/GalleryCard";
 import ImgOne from "../../assets/images/img_one.jpg";
 import ImgTwo from "../../assets/images/img_two.webp";
-import ImgThree from "../../assets/images/img_three.jpg";
 
 const PhotoGallery = () => {
 
