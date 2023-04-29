@@ -1,10 +1,10 @@
-import FixedMenu from "./components/FixedMenu/FixedMenu";
+import Home from "./components/Sessions/Home/Home";
 
 
 function App() {
   return (
     <>
-      <FixedMenu />
+      <Home />
     </>
   );
 }
