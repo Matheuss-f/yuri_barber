@@ -1,11 +1,12 @@
 import React from "react";
-import { Container } from "./style";
+import { AboutTitle, Container, Underline } from "./style";
 
 const About = () => {
 
   return(
     <Container>
-      <h1>Sobre</h1>
+      <AboutTitle>Sobre</AboutTitle>
+      <Underline />
     </Container>
   );
 };
