@@ -6,6 +6,7 @@ export const Container = styled.div`
   width: 100%;
   display: flex;
   z-index: 2;
+  top: 0;
 `;
 
 export const ContainerImage = styled.div`

@@ -1,27 +1,24 @@
 import styled from "styled-components";
 
 export const ContainerHome = styled.div`
-  width:100vw;
-  height: 100vh;
-  background-color: black;
-  display: flex;
+  width: 100vw;
+  position: relative;
 `;
 
 export const ContainerContent = styled.div`
   width: 100%;
-  position: relative;
+  position: absolute;
   z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  top: 0;
+  margin-top: 300px;
 `;
 
 export const VideoHome = styled.video`
   width:100%;
-  position: fixed;
-  top: 0;
-  object-fit: cover;
 `;
 
 export const ContainerButtons = styled.div`
