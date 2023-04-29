@@ -7,14 +7,20 @@ export const Container = styled.div`
   display: flex;
   z-index: 2;
   top: 0;
+  background-color: rgba(0,0,0);
+  height: 100px;
 `;
 
 export const ContainerImage = styled.div`
   width: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
 `;
 
 export const LogoImage = styled.img`
   width: 150px;
+  height: 150px;
   padding: 30px;
 `;
 
