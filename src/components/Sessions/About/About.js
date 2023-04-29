@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, ContainerContent, ContainerDescription, DescriptionText, ImageAbout, } from "./style";
+import { Container, ContainerContent, DescriptionText, ImageAbout, } from "./style";
 import TextUnderline from "../../TitleUnderline/TitleUnderline";
 import ImgAbout from "../../../assets/images/image_about.jpg"
 
