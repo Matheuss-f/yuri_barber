@@ -13,5 +13,5 @@ export const ContainerCards = styled.div`
   display: flex;
   flex-direction: row;
   margin-top: 60px;
-  gap: 200px;
+  gap: 50px;
 `;
