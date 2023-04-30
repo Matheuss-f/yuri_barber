@@ -14,8 +14,8 @@ const Contact = () => {
       <TitleUnderline text={'Contato'}/>
       <ImageLogo src={Logo}/>
       <ContainerContact>
-        <ContactComponent src={WhatsIcon} text={'9999-9999'} span={'19'}/>
-        <ContactComponent src={IgIcon} text={'yuribarber_obrabo'} span={'@'}/>
+        <ContactComponent isLink src={WhatsIcon} text={'9999-9999'} span={'19'} href={'https://contate.me/yuri_barber'}/>
+        <ContactComponent isLink src={IgIcon} text={'yuribarber_obrabo'} span={'@'} href={'https://www.instagram.com/yuribarber_obrabo/'}/>
         <ContactComponent src={LocalizationIcon} text={'Avenida, 123, centro'} span={'rua'}/>
       </ContainerContact>
     </Container>
