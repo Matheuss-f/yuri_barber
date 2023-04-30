@@ -7,5 +7,6 @@ export default createGlobalStyle`
     box-sizing: border-box;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
   }
 `;

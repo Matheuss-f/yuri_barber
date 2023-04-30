@@ -6,7 +6,7 @@ import ImgAbout from "../../../assets/images/image_about.jpg"
 const About = () => {
 
   return(
-    <Container>
+    <Container id="sobre">
       <TextUnderline text={'Sobre'} />
       <ContainerContent>
           <DescriptionText>

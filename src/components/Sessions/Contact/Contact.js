@@ -10,7 +10,7 @@ import ContactComponent from "../../ContactComponent/ContactComponent";
 const Contact = () => {
 
   return(
-    <Container>
+    <Container id="contato">
       <TitleUnderline text={'Contato'}/>
       <ImageLogo src={Logo}/>
       <ContainerContact>

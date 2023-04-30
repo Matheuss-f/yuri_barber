@@ -6,6 +6,7 @@ export const Container = styled.div`
   flex-direction: column;
   background-color: #FFFFFF;
   height: 900px;
+  padding-top: 25px;
 `;
 
 export const ContainerPhotos = styled.div`

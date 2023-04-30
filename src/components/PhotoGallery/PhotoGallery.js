@@ -8,7 +8,7 @@ import ImgTwo from "../../assets/images/img_two.webp";
 const PhotoGallery = () => {
 
   return (
-    <Container>
+    <Container id="galeria">
       <TitleUnderline text={'Galeria de fotos'} />
       <ContainerPhotos>
         <GalleryCard src={ImgOne}/>

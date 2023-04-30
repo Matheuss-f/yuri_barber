@@ -13,11 +13,11 @@ const FixedMenu = () => {
         <LogoImage src={Logo}/>
       </ContainerImage>
       <ContainerMenuNavigate>
-        <NavigateOption text={'Home'} to={'/home'}/>
-        <NavigateOption text={'Sobre'} to={'/about'}/>
-        <NavigateOption text={'Serviços'} to={'/services'}/>
-        <NavigateOption text={'Galeria de fotos'} to={'/gallery'}/>
-        <NavigateOption text={'Contato'} to={'/contact'}/>
+        <NavigateOption text={'Home'} href={'/#home'}/>
+        <NavigateOption text={'Sobre'} href={'/#sobre'}/>
+        <NavigateOption text={'Serviços'} href={'/#servicos'}/>
+        <NavigateOption text={'Galeria de fotos'} href={'/#galeria'}/>
+        <NavigateOption text={'Contato'} href={'/#contato'}/>
         <ButtonSchedule><a href="https://contate.me/yuri_barber" target="_blank" rel="noreferrer">Agendar</a></ButtonSchedule>
       </ContainerMenuNavigate>
     </Container>

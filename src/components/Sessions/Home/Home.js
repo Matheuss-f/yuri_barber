@@ -11,7 +11,7 @@ import FixedMenu from "../../FixedMenu/FixedMenu";
 const Home = () => {
 
   return(
-    <ContainerHome>
+    <ContainerHome id="home">
       <VideoHome src={VideoBg} loop autoPlay muted />
       <FixedMenu />
       <ContainerContent>
@@ -19,7 +19,7 @@ const Home = () => {
         <SubtitleHome>O <span>BRABO</span></SubtitleHome>
         <ContainerButtons>
           <AdvancedButton text={'Agendar horário'} isLink href="https://contate.me/yuri_barber"/>
-          <AdvancedButton text={'Galeria de fotos'}/>
+          <AdvancedButton text={'Galeria de fotos'} href="/#galeria" isLink target={"_self"}/>
         </ContainerButtons>
       </ContainerContent>
     </ContainerHome>

@@ -7,6 +7,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: #000;
   height: 900px;
+  padding-top: 10px;
 `;
 
 export const ContainerCards = styled.div`

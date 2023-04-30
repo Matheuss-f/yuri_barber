@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import styled, { keyframes } from "styled-components";
 
 const animation = keyframes`
@@ -7,7 +6,7 @@ const animation = keyframes`
   }
 `
 
-export const TextNavigate = styled(Link)`
+export const TextNavigate = styled.a`
   color: #FFFFFF;
   font-size: 15px;
   font-weight: bold;
