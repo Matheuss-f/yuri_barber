@@ -20,7 +20,7 @@ export const ContainerContent = styled.div`
   align-items: center;
   flex-direction: column;
   top: 0;
-  margin-top: 300px;
+  margin-top: 200px;
 `;
 
 export const VideoHome = styled.video`
@@ -33,20 +33,22 @@ export const ContainerButtons = styled.div`
   justify-content: space-between;
   align-items: center;
   animation: ${animation} 2s;
+  margin-top: 70px;
 `;
 
 export const TitleHome = styled.p`
   color: white;
   font-weight: bold;
-  font-size: 70px;
+  font-size: 6vw;
   animation: ${animation} 2s;
 `;
 
 export const SubtitleHome = styled.p`
   color: white;
   font-weight: bold;
-  font-size: 52px;
+  font-size: 4vw;
   animation: ${animation} 2s;
+  padding-top: 30px;
 
   span{
     color:  #f9aa33;

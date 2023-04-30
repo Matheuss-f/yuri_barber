@@ -6,9 +6,8 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 680px;
+  height: 980px;
   margin-top: -20px;
-  padding-top: 50px;
 `;
 
 export const ContainerContent = styled.div`
@@ -20,7 +19,7 @@ export const ContainerContent = styled.div`
 `;
 
 export const DescriptionText = styled.p`
-  font-size: 20px;
+  font-size: 23px;
   text-align: center;
 
   span{
@@ -29,8 +28,8 @@ export const DescriptionText = styled.p`
 `;
 
 export const ImageAbout = styled.img`
-  width: 300px;
-  height: 450px;
+  width: 330px;
+  height: 490px;
 `;
 
 export const ContainerDescription = styled.div`
