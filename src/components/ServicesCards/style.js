@@ -11,6 +11,7 @@ export const ContainerCard = styled.div`
 
   &:hover{
     opacity: 0.8;
+    transition: 0.5s;
   }
 `;
 
