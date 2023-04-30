@@ -4,8 +4,6 @@ import {
 
 import NavigateOption from "../NavigateOption/NavigateOption";
 import Logo from "../../assets/images/logo_barber.jpg"
-import { Link, Route, Routes } from "react-router-dom";
-import Home from "../Sessions/Home/Home";
 
 const FixedMenu = () => {
 
