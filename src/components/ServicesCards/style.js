@@ -8,6 +8,10 @@ export const ContainerCard = styled.div`
   align-items: center;
   border-radius: 20px;
   width: 250px;
+
+  &:hover{
+    opacity: 0.8;
+  }
 `;
 
 export const ImageService = styled.img`
