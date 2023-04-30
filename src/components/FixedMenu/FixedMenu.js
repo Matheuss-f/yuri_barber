@@ -4,6 +4,8 @@ import {
 
 import NavigateOption from "../NavigateOption/NavigateOption";
 import Logo from "../../assets/images/logo_barber.jpg"
+import { Link, Route, Routes } from "react-router-dom";
+import Home from "../Sessions/Home/Home";
 
 const FixedMenu = () => {
 
@@ -13,11 +15,11 @@ const FixedMenu = () => {
         <LogoImage src={Logo}/>
       </ContainerImage>
       <ContainerMenuNavigate>
-        <NavigateOption text={'Home'} href={'https://pt-br.facebook.com/'}/>
-        <NavigateOption text={'Sobre'} href={'https://pt-br.facebook.com/'}/>
-        <NavigateOption text={'Serviços'} href={'https://pt-br.facebook.com/'}/>
-        <NavigateOption text={'Galeria de fotos'} href={'https://pt-br.facebook.com/'}/>
-        <NavigateOption text={'Contato'} href={'https://pt-br.facebook.com/'}/>
+        <NavigateOption text={'Home'} to={'/home'}/>
+        <NavigateOption text={'Sobre'} to={'/about'}/>
+        <NavigateOption text={'Serviços'} to={'/services'}/>
+        <NavigateOption text={'Galeria de fotos'} to={'/gallery'}/>
+        <NavigateOption text={'Contato'} to={'/contact'}/>
         <ButtonSchedule><a href="https://contate.me/yuri_barber" target="_blank" rel="noreferrer">Agendar</a></ButtonSchedule>
       </ContainerMenuNavigate>
     </Container>

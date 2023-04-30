@@ -1,4 +1,10 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const animation = keyframes`
+  0% {
+    transform: translateX(-150%);
+  }
+`
 
 export const ContainerHome = styled.div`
   width: 100vw;
@@ -26,18 +32,21 @@ export const ContainerButtons = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  animation: ${animation} 2s;
 `;
 
 export const TitleHome = styled.p`
   color: white;
   font-weight: bold;
   font-size: 70px;
+  animation: ${animation} 2s;
 `;
 
 export const SubtitleHome = styled.p`
   color: white;
   font-weight: bold;
   font-size: 52px;
+  animation: ${animation} 2s;
 
   span{
     color:  #f9aa33;

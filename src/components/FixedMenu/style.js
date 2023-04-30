@@ -1,4 +1,10 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const animation = keyframes`
+  0% {
+    transform: translateX(-150%);
+  }
+`
 
 export const Container = styled.div`
   color: white;
@@ -22,6 +28,7 @@ export const LogoImage = styled.img`
   width: 150px;
   height: 150px;
   padding: 30px;
+  animation: ${animation} 2s;
 `;
 
 export const ContainerMenuNavigate = styled.div`
@@ -42,6 +49,7 @@ export const ButtonSchedule = styled.button`
   cursor: pointer;
   font-size: 15px;
   outline: none;
+  animation: ${animation} 2s;
 
   a{
     text-decoration: none;

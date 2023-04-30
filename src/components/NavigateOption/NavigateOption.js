@@ -1,10 +1,10 @@
 import React from "react";
 import { TextNavigate } from "./style";
 
-const NavigateOption = ({ text, href }) => {
+const NavigateOption = ({ text, to }) => {
 
   return(
-    <TextNavigate href={href}>{text}</TextNavigate>
+    <TextNavigate to={to}>{text}</TextNavigate>
   );
 };
 

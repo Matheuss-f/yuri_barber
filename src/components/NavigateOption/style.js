@@ -1,12 +1,20 @@
-import styled from "styled-components";
+import { Link } from "react-router-dom";
+import styled, { keyframes } from "styled-components";
 
-export const TextNavigate = styled.a`
+const animation = keyframes`
+  0% {
+    transform: translateX(-150%);
+  }
+`
+
+export const TextNavigate = styled(Link)`
   color: #FFFFFF;
   font-size: 15px;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   outline: none;
+  animation: ${animation} 2s;
 
   &:hover{
     color: #f9aa33;
