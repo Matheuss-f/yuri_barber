@@ -4,12 +4,13 @@ import { Container, ContainerPhotos } from "./style";
 import GalleryCard from "../GalleryCard/GalleryCard";
 import ImgOne from "../../assets/images/img_one.jpg";
 import ImgTwo from "../../assets/images/img_two.webp";
+import GalleryCarousel from "../GalleryCarousel/GalleryCarousel";
 
 const PhotoGallery = () => {
 
   return (
     <Container id="galeria">
-      <TitleUnderline text={'Galeria de fotos'} />
+      <TitleUnderline text={'Galeria de fotos'} textMobile={'Galeria'} mobileHidden/>
       <ContainerPhotos>
         <GalleryCard src={ImgOne}/>
         <GalleryCard src={ImgTwo}/>
@@ -20,6 +21,21 @@ const PhotoGallery = () => {
         <GalleryCard src={ImgOne}/>
         <GalleryCard src={ImgTwo}/>
       </ContainerPhotos>
+
+      <GalleryCarousel src={[
+        {
+          url: ImgOne,
+        },
+        {
+          url: ImgTwo,
+        },
+        {
+          url: ImgOne,
+        },
+        {
+          url: ImgTwo,
+        },
+        ]}/>
     </Container>
   );
 };

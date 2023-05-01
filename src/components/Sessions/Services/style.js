@@ -8,6 +8,11 @@ export const Container = styled.div`
   background-color: #000;
   height: 980px;
   padding-top: 10px;
+
+  @media screen and (max-width: 1200px) {
+    padding-top: 10px;
+    height: 1300px;
+  }
 `;
 
 export const ContainerCards = styled.div`
@@ -15,4 +20,16 @@ export const ContainerCards = styled.div`
   flex-direction: row;
   margin-top: 60px;
   gap: 50px;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+
+export const ContainerCardsMobile = styled.div`
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
 `;

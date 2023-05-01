@@ -13,10 +13,16 @@ export const ContainerCard = styled.div`
     opacity: 0.8;
     transition: 0.5s;
   }
+
+  @media screen and (max-width: 1200px) {
+    width: 200px;
+    margin-bottom: 30px;
+    height: 200px;
+  }
 `;
 
 export const ImageService = styled.img`
-  width: 200px;
+  width: 150px;
 `;
 
 export const TitleService = styled.p`
@@ -26,5 +32,10 @@ export const TitleService = styled.p`
 
   span{
     color: #f9aa33;
+  }
+
+  @media screen and (max-width: 1200px) {
+    font-size: 17px;
+    overflow: hidden;
   }
 `;

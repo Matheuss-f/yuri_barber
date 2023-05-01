@@ -1,13 +1,13 @@
 import React from "react";
-import { AboutTitle, ContainerTitle, Underline } from "./style";
+import { AboutTitle, AboutTitleMobile, ContainerTitle, Underline } from "./style";
 
-const TextUnderline = ({text}) => {
+const TextUnderline = ({text, textMobile, mobileHidden}) => {
 
   return(
     <ContainerTitle>
-      <AboutTitle>{text}</AboutTitle>
+      <AboutTitle>{mobileHidden ? textMobile : text}</AboutTitle>
       <Underline />
-  </ContainerTitle>
+    </ContainerTitle>
   );
 };
 

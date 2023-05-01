@@ -8,6 +8,10 @@ export const Container = styled.div`
   flex-direction: column;
   height: 980px;
   margin-top: -20px;
+
+  @media screen and (max-width: 1200px) {
+    height: 800px;
+  }
 `;
 
 export const ContainerContent = styled.div`
@@ -16,6 +20,11 @@ export const ContainerContent = styled.div`
   align-items: center;
   gap: 100px;
   margin-left: 100px;
+
+  @media screen and (max-width: 1200px) {
+    margin-left: 0;
+    padding: 10px;
+  }
 `;
 
 export const DescriptionText = styled.p`
@@ -25,11 +34,19 @@ export const DescriptionText = styled.p`
   span{
     color: #f9aa33;
   }
+
+  @media screen and (max-width: 1200px) {
+    font-size: 25px;
+  }
 `;
 
 export const ImageAbout = styled.img`
   width: 330px;
   height: 490px;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const ContainerDescription = styled.div`

@@ -7,6 +7,11 @@ export const Container = styled.div`
   background-color: #FFFFFF;
   height: 980px;
   padding-top: 25px;
+
+  @media screen and (max-width: 1200px) {
+    padding-top: 0px;
+    height: 600px;
+  }
 `;
 
 export const ContainerPhotos = styled.div`
@@ -15,4 +20,8 @@ export const ContainerPhotos = styled.div`
   margin-top: 50px;
   justify-content: center;
   gap: 20px;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
 `;

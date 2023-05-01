@@ -1,6 +1,6 @@
 import React from "react";
 import TitleUnderline from "../../TitleUnderline/TitleUnderline"
-import { Container, ContainerCards } from "./style";
+import { Container, ContainerCards, ContainerCardsMobile } from "./style";
 import BarberIcon from "../../../assets/images/barber_icon.png";
 import EyebrowIcon from "../../../assets/images/eyebrow_icon.png";
 import HairIcon from "../../../assets/images/hair_icon.png";
@@ -21,6 +21,12 @@ const Services = () => {
         <ServicesCards text={'Coloração de'} span={'cabelo'} src={PaintIcon}/>
       </ContainerCards>
 
+      <ContainerCardsMobile>
+        <ServicesCards text={'Design de'} span={'barba'} src={BarberIcon}/>
+        <ServicesCards text={'Corte de'} span={'cabelo'} src={HairIcon}/>
+        <ServicesCards text={'Design'} span={'sombrancelha'} src={EyebrowIcon}/>
+        <ServicesCards text={'Coloração de'} span={'cabelo'} src={PaintIcon}/>
+      </ContainerCardsMobile>
     </Container>
   );
 };
