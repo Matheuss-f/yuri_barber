@@ -8,16 +8,11 @@ export const ContainerCard = styled.div`
   align-items: center;
   border-radius: 20px;
   width: 250px;
+  height: 240px;
 
   &:hover{
     opacity: 0.8;
     transition: 0.5s;
-  }
-
-  @media screen and (max-width: 1200px) {
-    width: 200px;
-    margin-bottom: 30px;
-    height: 200px;
   }
 `;
 
@@ -35,7 +30,7 @@ export const TitleService = styled.p`
   }
 
   @media screen and (max-width: 1200px) {
-    font-size: 17px;
+    font-size: 20px;
     overflow: hidden;
   }
 `;

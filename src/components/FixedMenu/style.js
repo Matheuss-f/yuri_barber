@@ -6,7 +6,7 @@ const animation = keyframes`
   }
 `
 
-export const Container = styled.div`
+export const ContainerDesktop = styled.div`
   color: white;
   position: fixed;
   width: 100%;
@@ -15,6 +15,28 @@ export const Container = styled.div`
   top: 0;
   background-color: rgba(0,0,0);
   height: 100px;
+  overflow: hidden;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+
+export const ContainerMobile = styled.div`
+  color: white;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  z-index: 2;
+  top: 0;
+  background-color: rgba(0,0,0);
+  height: 100px;
+  overflow: hidden;
+  justify-content: space-between;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const ContainerImage = styled.div`
@@ -22,6 +44,18 @@ export const ContainerImage = styled.div`
   overflow: hidden;
   display: flex;
   align-items: center;
+
+   @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+
+export const ContainerImageMobile = styled.div`
+   @media screen and (max-width: 1200px) {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+  }
 `;
 
 export const LogoImage = styled.img`
@@ -29,6 +63,11 @@ export const LogoImage = styled.img`
   height: 150px;
   padding: 30px;
   animation: ${animation} 2s;
+
+  @media screen and (max-width: 1200px) {
+    width: 130px;
+    height: 130px;
+  }
 `;
 
 export const ContainerMenuNavigate = styled.div`
@@ -38,6 +77,33 @@ export const ContainerMenuNavigate = styled.div`
   gap: 35px;
   padding: 10px;
   align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+`;
+
+export const ContainerMenuNavigateMobile = styled.div`
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+  }
+`;
+
+export const ContainerHamburger = styled.div`
+  @media screen and (max-width: 1200px) {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
 `;
 
 export const ButtonSchedule = styled.button`

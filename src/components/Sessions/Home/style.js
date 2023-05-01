@@ -9,6 +9,11 @@ const animation = keyframes`
 export const ContainerHome = styled.div`
   width: 100vw;
   position: relative;
+
+  /* @media screen and (max-width: 1200px) {
+    width: 100%;
+    height: 500px;
+  } */
 `;
 
 export const ContainerContent = styled.div`

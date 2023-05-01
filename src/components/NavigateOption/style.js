@@ -20,4 +20,9 @@ export const TextNavigate = styled.a`
     text-decoration: none;
     transition: 0.5s;
   }
+
+  @media screen and (max-width: 1200px) {
+    color: #f9aa33;
+    font-size: 13px;
+  }
 `;

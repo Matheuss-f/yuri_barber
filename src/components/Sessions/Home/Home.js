@@ -7,6 +7,7 @@ import {
 import VideoBg from "../../../assets/videos/video_bg.mp4"
 import AdvancedButton from "../../AdvancedButton/AdvancedButton";
 import FixedMenu from "../../FixedMenu/FixedMenu";
+import { MenuOutlined } from "@ant-design/icons";
 
 const Home = () => {
 

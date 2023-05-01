@@ -1,5 +1,5 @@
 import React from "react";
-import { AboutTitle, AboutTitleMobile, ContainerTitle, Underline } from "./style";
+import { AboutTitle, ContainerTitle, Underline } from "./style";
 
 const TextUnderline = ({text, textMobile, mobileHidden}) => {
 
