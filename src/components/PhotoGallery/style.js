@@ -11,6 +11,7 @@ export const ContainerDesktop = styled.div`
   background-color: #FFFFFF;
   height: 980px;
   padding-top: 25px;
+  width: 100%;
 
   @media screen and (max-width: 1200px) {
     display: none;

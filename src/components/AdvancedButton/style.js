@@ -11,6 +11,13 @@ export const Button = styled.button`
   font-size: 25px;
   outline: none;
 
+  @media screen and (max-width: 1200px) {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
   a{
     outline: none;
     text-decoration: none;
@@ -20,6 +27,10 @@ export const Button = styled.button`
   &:hover{
     background-color: #FD7A2A;
     transition: 0.5s;
+
+    @media screen and (max-width: 1200px) {
+      background-color: #f9aa33;
+    }
   }
 
   &:active{

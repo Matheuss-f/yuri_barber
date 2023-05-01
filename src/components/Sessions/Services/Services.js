@@ -24,8 +24,8 @@ const Services = () => {
       </ContainerDesktop>
 
       <ContainerCardsMobile>
-        <TitleUnderline text={'Serviços'}/>
         <ContainerContentMobile>
+          <TitleUnderline text={'Serviços'}/>
           <ServicesCards text={'Design de'} span={'barba'} src={BarberIcon}/>
           <ServicesCards text={'Corte de'} span={'cabelo'} src={HairIcon}/>
           <ServicesCards text={'Design'} span={'sombrancelha'} src={EyebrowIcon}/>

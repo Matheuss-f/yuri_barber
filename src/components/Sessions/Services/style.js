@@ -35,6 +35,11 @@ export const ContainerContentMobile = styled.div`
     flex-direction: column;
     margin-top: 50px;
     gap: 30px;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: none;
   }
 `;
 
