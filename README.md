@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Projeto: YURI BARBER
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Uma Landing page de uma barbearia, onde encontramos animações, interações e um ótimo design para uma boa experiência de usuário.
 
-## Available Scripts
+# Tecnologias e ferramentas utilizadas:
 
-In the project directory, you can run:
+Projeto feito em javascript, utilizando o Reactjs. Utilização de Styled Components como ferrament de estilização e a lib react-elastic-carousel para carrossel animado com imagens no modo mobile e ainda utilização de media query para responsividade da aplicação.
 
-### `npm start`
+# Sessão: Home
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![image](https://user-images.githubusercontent.com/96292206/235655211-b5717424-981d-4a63-a0ad-07f6338226e8.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+💻 Tela com um vídeo de background e um menu fixo para navegação do usuário ✅
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Sessão: Sobre
 
-### `npm run build`
+![image](https://user-images.githubusercontent.com/96292206/235656266-e1728bc4-5e9e-42e1-90d8-d3a97872457d.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+💻 Tela mais simples com descritivo sobre o trabalho ✅
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Sessão: Serviços
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![image](https://user-images.githubusercontent.com/96292206/235656485-3f90011e-f1c2-4292-9659-d0298e638a60.png)
 
-### `npm run eject`
+💻 Tela com cards descritos os trabalhos feitos na barbearia ✅
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Sessão: Galeria de fotos
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![image](https://user-images.githubusercontent.com/96292206/235656718-a8e9dd5d-25a0-4a82-b9c9-ebfe26c1dbd7.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+💻 Tela com provas sociais do trabalho realizado pelo barbeiro ✅
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Sessão: Contato
 
-## Learn More
+![image](https://user-images.githubusercontent.com/96292206/235656895-262a3e49-7917-4663-9bd7-1461b20ee9a1.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+💻 Tela com contatos do barbeiro que redireciona diretamente para as redes ✅
