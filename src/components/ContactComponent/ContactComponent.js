@@ -6,7 +6,7 @@ const ContactComponent = ({src, text, span, href, isLink}) => {
   return(
     <Container>
       <ContainerContact>
-        <LinkContact href={href} isLink={isLink}>
+        <LinkContact href={href} isLink={isLink} target="_blank">
           <ContactIcon src={src}/>
           <TextContact><span>{span}</span> {text}</TextContact>
         </LinkContact>
