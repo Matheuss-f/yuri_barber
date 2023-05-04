@@ -47,10 +47,39 @@ export const ContainerMobile = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -80px;
   height: 950px;
+  padding: 15px;
+  margin-top: 60px;
 
   @media screen and (min-width: 1200px) {
     display: none;
   }
+`;
+
+export const ContainerContentMobile = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (min-width: 1200px) {
+    display: none;
+  }
+`;
+
+export const ContainerDescriptionMobile = styled.div`
+  text-align: center;
+  font-size: 23px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+
+  span{
+    color: #f9aa33;
+  }
+`;
+
+export const ContainerVideoMobile = styled.div``;
+
+export const VideoWorkshopMobile = styled.video`
+  width: 200px;
 `;

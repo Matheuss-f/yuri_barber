@@ -46,6 +46,7 @@ const FixedMenu = () => {
             <NavigateOption text={'Sobre'} href={'/#sobre'} onClick={() => handleClick()}/>
             <NavigateOption text={'Serviços'} href={'/#servicos'} onClick={() => handleClick()}/>
             <NavigateOption text={'Galeria'} href={'/#galeria'} onClick={() => handleClick()}/>
+            <NavigateOption text={'Workshop'} href={'/#workshop'} onClick={() => handleClick()}/>
             <NavigateOption text={'Contato'} href={'/#contato'} onClick={() => handleClick()}/>
           </ContainerMenuNavigateMobile>
         )}

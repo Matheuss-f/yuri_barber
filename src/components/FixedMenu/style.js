@@ -33,6 +33,7 @@ export const ContainerMobile = styled.div`
   height: 100px;
   overflow: hidden;
   justify-content: space-between;
+  align-items: center;
 
   @media screen and (min-width: 1200px) {
     display: none;
@@ -89,7 +90,9 @@ export const ContainerMenuNavigateMobile = styled.div`
     justify-content: center;
     align-items: center;
     gap: 10px;
-    width: 90%;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 50px;
   }
 `;
 
