@@ -16,7 +16,7 @@ const Contact = () => {
       <ContainerContact>
         <ContactComponent isLink src={WhatsIcon} text={'99654-8647'} span={'19'} href={'https://contate.me/yuri_barber'}/>
         <ContactComponent isLink src={IgIcon} text={'yuribarber_obrabo'} span={'@'} href={'https://www.instagram.com/yuribarber_obrabo/'}/>
-        <ContactComponent src={LocalizationIcon} text={'Monte Castelo, 123, Jardim de Faveri'} span={'rua'}/>
+        <ContactComponent src={LocalizationIcon} text={'Monte Castelo, 864'} span={'rua'}/>
       </ContainerContact>
     </Container>
   );
