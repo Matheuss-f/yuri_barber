@@ -28,6 +28,7 @@ export const ContainerMobile = styled.div`
 
 export const ImageHome = styled.img`
   width:100%;
+  height: 560px;
 `;
 
 export const ContainerContent = styled.div`
