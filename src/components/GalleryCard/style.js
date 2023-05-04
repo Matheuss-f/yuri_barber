@@ -4,6 +4,7 @@ export const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 
   &:hover{
     opacity: 0.8;
@@ -12,5 +13,5 @@ export const Container = styled.div`
 `;
 
 export const PhotoImage = styled.img`
-  width: 400px;
+  width: 350px;
 `;

@@ -9,8 +9,7 @@ export const ContainerDesktop = styled.div`
   justify-content: center;
   flex-direction: column;
   background-color: #FFFFFF;
-  height: 980px;
-  padding-top: 25px;
+  padding: 85px;
   width: 100%;
 
   @media screen and (max-width: 1200px) {
@@ -25,6 +24,7 @@ export const ContainerMobile = styled.div`
   background-color: #FFFFFF;
   width: 100%;
   height: 600px;
+  padding-top: 80px;
 
   @media screen and (min-width: 1200px) {
     display: none;
@@ -36,7 +36,7 @@ export const ContainerPhotos = styled.div`
   width: 100%;
   margin-top: 50px;
   justify-content: center;
-  gap: 20px;
+  gap: 60px;
 
   @media screen and (max-width: 1200px) {
     display: none;

@@ -2,8 +2,12 @@ import React from "react";
 import TitleUnderline from "../TitleUnderline/TitleUnderline";
 import { Container, ContainerDesktop, ContainerMobile, ContainerPhotos } from "./style";
 import GalleryCard from "../GalleryCard/GalleryCard";
-import ImgOne from "../../assets/images/img_one.jpg";
-import ImgTwo from "../../assets/images/img_two.webp";
+import ImgOne from "../../assets/images/image_one.jpg";
+import ImgTwo from "../../assets/images/image_two.jpg";
+import ImgThree from "../../assets/images/image_three.jpg";
+import ImgFour from "../../assets/images/image_four.jpg";
+import ImgFive from "../../assets/images/image_five.jpg";
+import ImgSix from "../../assets/images/image_six.jpg";
 import GalleryCarousel from "../GalleryCarousel/GalleryCarousel";
 
 const PhotoGallery = () => {
@@ -15,12 +19,12 @@ const PhotoGallery = () => {
         <ContainerPhotos>
           <GalleryCard src={ImgOne}/>
           <GalleryCard src={ImgTwo}/>
-          <GalleryCard src={ImgOne}/>
+          <GalleryCard src={ImgThree}/>
         </ContainerPhotos>
         <ContainerPhotos>
-          <GalleryCard src={ImgTwo}/>
-          <GalleryCard src={ImgOne}/>
-          <GalleryCard src={ImgTwo}/>
+          <GalleryCard src={ImgFour}/>
+          <GalleryCard src={ImgFive}/>
+          <GalleryCard src={ImgSix}/>
         </ContainerPhotos>
       </ContainerDesktop>
 
@@ -34,10 +38,16 @@ const PhotoGallery = () => {
             url: ImgTwo,
           },
           {
-            url: ImgOne,
+            url: ImgThree,
           },
           {
-            url: ImgTwo,
+            url: ImgFour,
+          },
+          {
+            url: ImgFive,
+          },
+          {
+            url: ImgSix,
           },
           ]}
         />

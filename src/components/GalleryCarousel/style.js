@@ -6,7 +6,7 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 35px;
-    padding: 35px 0;
+    padding: 35px;
     .rec.rec-arrow {
       display: none;
     }
@@ -17,15 +17,13 @@ export const Container = styled.div`
 }
 `;
 
-export const CategoryImg = styled.img``;
-
 export const ContainerItems = styled.div`
   display: flex;
   flex-direction: column;
 `;
 
 export const Image = styled.img`
-  width: 310px;
+  width: 210px;
   border-radius: 10px;
 `;
 
