@@ -14,7 +14,7 @@ export const AboutTitle = styled.p`
   display: ${ props => props.mobileHidden ? 'none' : 'flex' };
 
   @media screen and (max-width: 1200px) {
-    font-size: 70px;
+    font-size: 50px;
   }
 `;
 
