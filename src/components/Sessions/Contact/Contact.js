@@ -1,7 +1,7 @@
 import React from "react";
 import TitleUnderline from "../../TitleUnderline/TitleUnderline";
 import { Container, ContainerContact, ImageLogo } from "./style";
-import Logo from "../../../assets/images/logo_barber.jpg";
+import Logo from "../../../assets/images/logo_img.png";
 import WhatsIcon from "../../../assets/images/wpp_icon.png";
 import IgIcon from "../../../assets/images/ig_icon.webp";
 import LocalizationIcon from "../../../assets/images/localization_icon.png";

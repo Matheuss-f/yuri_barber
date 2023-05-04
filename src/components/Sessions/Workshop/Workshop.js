@@ -1,0 +1,42 @@
+import React from "react";
+import TitleUnderline from "../../TitleUnderline/TitleUnderline";
+import { Container, ContainerContent, ContainerDescription, ContainerDesktop, ContainerMobile, ContainerVideo, VideoWorkshop } from "./style";
+import WorkshopVideo from "../../../assets/videos/workshop_video.mp4";
+
+const Workshop = () => {
+
+  return(
+    <Container id="workshop">
+      <ContainerDesktop>
+        <TitleUnderline text="Workshop 2023"/>
+        <ContainerContent>
+          <ContainerDescription>
+            Workshop realizado na cidade de <span>Cosmópolis</span>, com<br/>participações especiais de alguns barbeiros da cidade.<br/>
+            Levamos algumas tecnicas inovadoras para apresentar ao público, e é claro uma das maiores técnicas,<br/> o famoso <span>NEVOU</span>.
+            Confira o vídeo para saber um pouco sobre o evento!
+          </ContainerDescription>
+          <ContainerVideo>
+            <VideoWorkshop src={WorkshopVideo} controls/>
+          </ContainerVideo>
+        </ContainerContent>
+      </ContainerDesktop>
+
+      <ContainerMobile>
+        <TitleUnderline text="Workshop 2023"/>
+        <ContainerContent>
+          <ContainerDescription>
+            Workshop realizado na cidade de FULANO, com participações especiais de alguns barbeiros da cidade de cosmópolis.
+            Levamos algumas tecnicas inovadoras para apresentar ao público, mas é claro uma das maiores técnicas, o famoso NEVOU.
+            Confira o vídeo para saber um pouco sobre o evento!
+          </ContainerDescription>
+          <ContainerVideo>
+            <VideoWorkshop src={WorkshopVideo} controls/>
+          </ContainerVideo>
+        </ContainerContent>
+      </ContainerMobile>
+    </Container>
+
+  );
+};
+
+export default Workshop;

@@ -71,7 +71,7 @@ export const LogoImage = styled.img`
 `;
 
 export const ContainerMenuNavigate = styled.div`
-  width: 50%;
+  width: 80%;
   display: flex;
   justify-content: center;
   gap: 35px;

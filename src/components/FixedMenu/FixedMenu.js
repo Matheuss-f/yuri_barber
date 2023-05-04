@@ -3,7 +3,7 @@ import {
 } from "./style"
 
 import NavigateOption from "../NavigateOption/NavigateOption";
-import Logo from "../../assets/images/logo_barber.jpg"
+import Logo from "../../assets/images/logo_img.png"
 import { useState } from "react";
 import { MenuOutlined } from "@ant-design/icons"
 
@@ -28,6 +28,7 @@ const FixedMenu = () => {
           <NavigateOption text={'Sobre'} href={'/#sobre'}/>
           <NavigateOption text={'Serviços'} href={'/#servicos'}/>
           <NavigateOption text={'Galeria de fotos'} href={'/#galeria'}/>
+          <NavigateOption text={'Workshop'} href={'/#workshop'}/>
           <NavigateOption text={'Contato'} href={'/#contato'}/>
           <ButtonSchedule><a href="https://contate.me/yuri_barber" target="_blank" rel="noreferrer">Agendar</a></ButtonSchedule>
         </ContainerMenuNavigate>
